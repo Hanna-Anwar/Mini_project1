@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee_listing page</title>
+
+    <!-- custom link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bs cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <!-- bs js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- As a heading nav start-->
+    <nav class="navbar bg-body-tertiary \  ">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 mx-auto">EMPLOYEE LISTING </span>
+        </div>
+    </nav>
+
+    <!-- As a heading nav end-->
+
+    <!-- table start -->
+
+    <div class="container ">
+        <table class="container mt-5 ms-2 table-responsive">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">DEPARTMENT</th>
+                    <th scope="col">SALARY</th>
+                    <th scope="col">LOCATION</th>
+                    <th scope="col">PROFILE</th>
+                    <th scope="col">View/Edit/Delete</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">EM101</th>
+                    <td>Naina Shivasthav</td>
+                    <td>Human Resource</td>
+                    <td>27000</td>
+                    <td>Kochi</td>
+                    <td>
+                        <div class="pic">
+                            <img src="./images/naina.png" alt="" class="img-fluid rounded" style="max-width: 50px;">
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <a href="./emp_detail_page.html" class="btn btn-outline-dark btn-sm">View</a>
+                            </div>
+                            <div class="b1">
+                                <a href="./emp_edit.html" class="btn btn-outline-dark btn-sm">Edit</a>
+                            </div>
+                            <div class="b1">
+                                <a href="" class="btn btn-outline-dark btn-sm">Delete</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">EM102</th>
+                    <td>jhon</td>
+                    <td>Frontend Developer</td>
+                    <td>35000</td>
+                    <td>Thrissur</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/jhon.png" style="max-width: 50px;" alt="">
+                        </div>
+
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">EMP103</th>
+                    <td>Meera</td>
+                    <td>Human Resource</td>
+                    <td>27000</td>
+                    <td>TVM</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/meera.png" style="max-width: 50px;" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">EMP104</th>
+                    <td>Diya david</td>
+                    <td>Back End Developer</td>
+                    <td>75000</td>
+                    <td>Kollam</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/diya.png" style="max-width: 50px;" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">EMP105</th>
+                    <td>Mathew</td>
+                    <td>developer</td>
+                    <td>54000</td>
+                    <td>Malappuram</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/mathew.png" alt="" style="max-width: 50px;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">EMP106</th>
+                    <td>nihal</td>
+                    <td>ML engineer</td>
+                    <td>33000</td>
+                    <td>Kollam</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/nihal.png" alt="" style="max-width: 50px;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">EMP107</th>
+                    <td>naeema</td>
+                    <td>Back end engineer</td>
+                    <td>24000</td>
+                    <td>Palakkad</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/naeema.png" alt="" style="max-width: 50px;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">EMP108</th>
+                    <td>binu</td>
+                    <td>AI engineer</td>
+                    <td>29000</td>
+                    <td>Ernakulam</td>
+                    <td>
+                        <div class="pic">
+                            <img class="img-fluid rounded " src="./images/binu.png" alt="" style="max-width: 50px;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex flex-row">
+
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">View</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Edit</button>
+                            </div>
+                            <div class="b1">
+                                <button class="btn btn-outline-dark btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- table end -->
+
+
+    </div>
+
+</body>
+
+</html>
